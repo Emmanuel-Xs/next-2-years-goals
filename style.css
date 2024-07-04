@@ -141,7 +141,7 @@ menu {
   transform: translateX(-50%);
   height: 3px;
   transition: width 0.3s ease-in-out;
-  background-color: #a5684f;
+  background-color: #8e0032;
 }
 
 .nav_item:hover::before {
