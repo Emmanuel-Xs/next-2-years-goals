@@ -7,5 +7,311 @@
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="container">
+        <h3 class="logo-title" data-testid="slackDisplayName">Xs</h3>
+        <menu class="open">
+          <li class="nav_item"><a href="#about-me">About Me</a></li>
+          <li class="nav_item"><a href="#goals">Goals</a></li>
+          <li class="nav_item"><a href="#relevant-links">Relevant Links</a></li>
+          <li class="nav_item"><a href="#get-in-touch">Get in Touch</a></li>
+          <img
+            src="assets/close.svg"
+            alt="close button for the primary navigation"
+            class="close-btn"
+          />
+        </menu>
+        <img
+          src="assets/menu.svg"
+          alt="Hamburger menu to open primary navigation"
+          class="hamburger-menu"
+        />
+      </nav>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="hero__desc">
+          <p class="hero__tag">Hello, I Am <span>Frontend Developer</span></p>
+          <h2 data-testid="slackFullName" class="full-name">
+            Emmanuel Nwaohiri
+          </h2>
+          <p data-testid="slackEmail" class="email">
+            emmanuelnwaohiri1@gmail.com
+          </p>
+          <p class="hero__desc-content">
+            A passionate Frontend Developer participating in the HNG Internship
+            Program. My goal is to become a developer capable of solving
+            problems and continuously learning new things.
+          </p>
+
+          <a href="#get-in-touch">Get in Touch</a>
+        </div>
+        <picture>
+          <source srcset="assets/xs-250.jpeg" media="(max-width: 280px)" />
+          <source srcset="assets/xs-280.jpeg" media="(max-width: 320px)" />
+          <source srcset="assets/xs-290.jpeg" media="(max-width: 350px)" />
+          <source srcset="assets/xs-350.jpeg" media="(max-width: 390px)" />
+          <source srcset="assets/xs-380.jpeg" media="(max-width: 420px)" />
+          <source srcset="assets/xs-400.jpeg" media="(max-width: 450px)" />
+          <source srcset="assets/xs-450.jpeg" media="(max-width: 480px)" />
+          <source srcset="assets/xs-480.jpeg" media="(max-width: 530px)" />
+          <source srcset="assets/xs-500.jpeg" media="(max-width: 580px)" />
+          <img
+            src="assets/xs-512.jpeg"
+            alt="My Slack profile image"
+            data-testid="slackProfilePicture"
+          />
+        </picture>
+      </section>
+      <section id="goals">
+        <div class="container">
+          <h1 class="page-title">My Goals For The Next Two Years In Tech</h1>
+          <div>
+            <p class="quotes-container caveat">
+              <q class="quotes">
+                Setting goals is the first step in turning the invisible into
+                the visible.
+              </q>
+              <span>- Tony Robbins</span>
+            </p>
+            <div>
+              <p class="time">
+                Current Time:
+                <span data-testid="currentTimeUTC">00:36:00 AM</span> UTC
+              </p>
+              <p class="day">
+                Current Day: <span data-testid="currentDay">Wednesday</span>
+              </p>
+            </div>
+            <p class="note-to-me">
+              Hello Future Me, I hope that when you visit this page in the next
+              two years, you will have achieved at least 70% of the following
+              goals. I made these goals considering our strengths, weaknesses,
+              and desires, while making us accountable to the public.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container gtc">
+        <div class="goal-term-container">
+          <h3>Short-Term Goals (0-6 months)</h3>
+          <ul class="ver-line var-line-1">
+            <div class="goal-block block-1">
+              O
+              <div class="hor-line line-1">
+                <li class="hor-line-card card-title card-1">
+                  Complete the HNG Internship Program
+                  <ul>
+                    <li>Gain hands-on experience in frontend development.</li>
+                    <li>Gain experience working on a team.</li>
+                    <li>Complete all stages and tasks of the internship.</li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+            <div class="goal-block block-2">
+              X
+              <div class="hor-line line-2">
+                <li class="hor-line-card card-title card-2">
+                  Strengthen Programming Foundations
+                  <ul>
+                    <li>Deepen understanding of JavaScript and TypeScript.</li>
+                    <li>Study essential computer science concepts.</li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+            <div class="goal-block block-3">
+              O
+              <div class="hor-line line-3">
+                <li class="hor-line-card card-title card-3">
+                  Build some simple SaaS applications to be used by at least 2
+                  people
+                  <ul>
+                    <li>
+                      Add more features to my BSc project and make it live.
+                    </li>
+                    <li>
+                      Build a full-stack Todo application with AI and chart
+                      features.
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="goal-term-container">
+          <h3>Long-Term Goals &nbsp;&nbsp; (6 months - 2 years)</h3>
+          <ul class="ver-line var-line-2">
+            <div class="goal-block block-1">
+              O
+              <div class="hor-line line-1">
+                <li class="hor-line-card card-title card-1">
+                  Gain Professional Experience
+                  <ul>
+                    <li>
+                      Secure a frontend development role or internship at a tech
+                      company.
+                    </li>
+                    <li>
+                      Work on real-world projects and collaborate with a team of
+                      developers.
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+            <div class="goal-block block-2">
+              X
+              <div class="hor-line line-2">
+                <li class="hor-line-card card-title card-2">
+                  Expand Your Skill Set
+                  <ul>
+                    <li>
+                      Learn and gain skills in Web3, blockchain, and AI,
+                      diversifying my skill set.
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+            <div class="goal-block block-3">
+              X
+              <div class="hor-line line-3">
+                <li class="hor-line-card card-title card-3">
+                  Build a Personal Brand
+                  <ul>
+                    <li>
+                      Start a tech blog to share my knowledge and experiences.
+                    </li>
+                    <li>
+                      Engage with the developer community on platforms like
+                      Twitter, YouTube, or Dev.to.
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+            <div class="goal-block block-4">
+              O
+              <div class="hor-line line-4">
+                <li class="hor-line-card card-title card-4">
+                  Create a Major Personal Project
+                  <ul>
+                    <li>
+                      Develop a significant project that solves a real-world
+                      problem or serves a large audience.
+                    </li>
+                    <li>
+                      Use this project to showcase my skills and innovation.
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </section>
+      <section class="other-goal">
+        <div class="container">
+          <h3>Other Goals (0 month - probably won't)</h3>
+          <p>
+            Get a girlfriend to cook for me, so that I can focus more on coding
+            <span>🫣🫶😳👉👈</span>.
+          </p>
+        </div>
+      </section>
+
+      <section id="relevant-links" class="container">
+        <h2>Relevant Links</h2>
+        <div class="rele-links">
+          <a href="https://hng.tech/learn" data-testid="hngLink"
+            >hng.tech/learn</a
+          >
+          <a href="https://keyword.dog" data-testid="keywordLink"
+            >keyword.dog</a
+          >
+          <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+            >scrapeanyweb.site</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer id="get-in-touch">
+      <section class="container">
+        <h2>Get in Touch</h2>
+        <div class="social-container">
+          <a href="https://github.com/Emmanuel-Xs/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-github"
+            >
+              <path
+                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+              />
+              <path d="M9 18c-4.51 2-5-2-7-2" />
+            </svg>
+            Emmanuel-Xs
+          </a>
+          <a
+            href="https://www.emmanuelnwaohiri1@gmail.com"
+            data-testid="slackEmail"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-mail"
+            >
+              <rect width="20" height="16" x="2" y="4" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+            emmanuelnwaohiri1@gmail.com
+          </a>
+          <a href="https://x.com/emmanwaohiri">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-twitter"
+            >
+              <path
+                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+              />
+            </svg>
+            emmanwaohiri
+          </a>
+        </div>
+        <p class="quotes-container caveat">
+          <q class="quotes">
+            If you don't know what you're doing, the enemy will never know.
+          </q>
+          <span>- Sun Tzu</span>
+        </p>
+        <p class="copy">&copy; copyright <span>2024</span></p>
+      </section>
+    </footer>
+  </body>
 </html>
